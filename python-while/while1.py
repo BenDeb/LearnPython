@@ -10,5 +10,5 @@ while nombre != 5:
         continue
     if int(nombre) == 5:
         break
-print('bravo')
+print('bravo ben')
 
