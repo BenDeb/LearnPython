@@ -1,0 +1,24 @@
+Vim Plug is a vim plugins manager. It's really easy to use.
+
+The installation is straightforward : 
+
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+In you .vimrc file, add : 
+
+call plug#begin()
+Plug 'tpope/vim-sensible'
+
+" On-demand loading
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+call plug#end()
+
+-------
+
+
+To add plugins, add lines like this : 
+
+" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
+Plug 'junegunn/vim-easy-align'
+
