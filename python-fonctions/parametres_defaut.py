@@ -13,5 +13,9 @@ def fonction_defaut(a=5, b=10):
 #10 + 20 = 30
 fonction_defaut(7,8)
     
+#En définissant une fonction du meme nom, on écrase la fonction précédente : 
 
+def fonction_defaut(a=5, b=10):
+    print(a, " * ", b, " = ", a * b)
 
+fonction_defaut(7,8)
